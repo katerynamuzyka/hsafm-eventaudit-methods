@@ -1,0 +1,56 @@
+{
+  "acquisition_status": "current upstream acquisition; historical byte identity NOT established",
+  "gltph": {
+    "candidate_edge_count": 0,
+    "dataset": "gltph",
+    "end_class_counts": {
+      "assignment_ambiguous": 1,
+      "boundary_censored": 1,
+      "candidate_reappearance": 1,
+      "observability_limited": 1,
+      "registration_limited": 48
+    },
+    "excluded_frame_count": 0,
+    "good_frame_count": 74,
+    "interpretation": "descriptive EventAudit evidence representation only; not accuracy, physical closure, or biological truth",
+    "mutual_candidate_edge_count": 0,
+    "n_events": 52,
+    "secondary_qc_frame_count": 0,
+    "start_class_counts": {
+      "assignment_ambiguous": 2,
+      "boundary_censored": 1,
+      "observability_limited": 2,
+      "registration_limited": 47
+    }
+  },
+  "interpretation_boundary": "descriptive observer/evidence outputs only; no accuracy score, physical closure label, biological truth validation, or manuscript-facing biological claim",
+  "sbccd": {
+    "candidate_edge_count": 14,
+    "dataset": "sbccd",
+    "end_class_counts": {
+      "assignment_ambiguous": 188,
+      "boundary_censored": 54,
+      "candidate_reappearance": 12,
+      "observability_limited": 1,
+      "registration_limited": 153,
+      "source_valid_negative": 100,
+      "unresolved": 166
+    },
+    "excluded_frame_count": 17,
+    "good_frame_count": 180,
+    "interpretation": "descriptive EventAudit evidence representation only; not accuracy, physical closure, or biological truth",
+    "mutual_candidate_edge_count": 9,
+    "n_events": 674,
+    "secondary_qc_frame_count": 0,
+    "start_class_counts": {
+      "assignment_ambiguous": 194,
+      "boundary_censored": 43,
+      "candidate_reappearance": 13,
+      "observability_limited": 4,
+      "registration_limited": 159,
+      "source_valid_negative": 121,
+      "unresolved": 140
+    }
+  },
+  "stage2_version": "EventAudit-external-observer-validation-stage2-v1-2026-10-01"
+}

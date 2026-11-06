@@ -1,0 +1,22 @@
+{
+  "audit": {
+    "audit_event_rows": 52,
+    "audit_frame_rows": 74,
+    "candidate_detail_rows": 1,
+    "candidate_edges": 0,
+    "candidate_edges_unapplied": true,
+    "class_vocabulary_valid": true,
+    "code_vocabulary_valid": true,
+    "params_digest_exact": true,
+    "secondary_qc_empty_policy_preserved": true
+  },
+  "observer": {
+    "event_count": 52,
+    "excluded_frame_count": 0,
+    "good_frame_count": 74,
+    "retained_track_count": 52,
+    "total_track_count": 181,
+    "track_event_mapping_exact": true,
+    "track_temporal_summary_invariants_pass": true
+  }
+}

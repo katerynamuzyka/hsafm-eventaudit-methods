@@ -1,0 +1,46 @@
+{
+  "A1": {
+    "bootstrap_replicates": 10000,
+    "ci95": [
+      0.06641228152839572,
+      0.09979389357915742
+    ],
+    "ci_method": "frozen paired two-sided 95% percentile bootstrap; 10000 resamples of latent-case blocks; pooled marginal-rate difference",
+    "criterion": "estimate > 0 AND ci95_lower > 0",
+    "definition": "P(claim_miss | B1) - P(claim_miss | B6)",
+    "estimate": 0.08271604938271605,
+    "n_base_latent_cases": 1944,
+    "n_eligible_observations": 9720,
+    "p_miss_B1": 0.16666666666666666,
+    "p_miss_B6": 0.08395061728395062,
+    "pass": true
+  },
+  "A2": {
+    "ci_note": "no pre-specified CI for A2/A3",
+    "confidence_interval": null,
+    "criterion": "rate <= 1/3",
+    "definition": "B6 no-claim rate on frozen END-targeted base population",
+    "denominator": 1944,
+    "estimate": 0.3101851851851852,
+    "numerator": 603,
+    "pass": true
+  },
+  "A3": {
+    "ci_note": "no pre-specified CI for A2/A3",
+    "confidence_interval": null,
+    "criterion": "coverage >= 0.80",
+    "definition": "B6 true-END coverage conditional on finite interval claim",
+    "denominator": 7544,
+    "estimate": 0.8918345705196182,
+    "numerator": 6728,
+    "pass": true
+  },
+  "base_cases": 3294,
+  "core_raw_summary_sha256": "92899c618cb229b080608f0afa4992a13e6095aa1de91261ada67d22c6ca3771",
+  "core_status_as_recorded": "PASS",
+  "observation_cases": 14958,
+  "post_unblinding_tuning": false,
+  "run_attempt": "STAGE3B_CORE_V1_ATTEMPT_001",
+  "schema": "STAGE3B_CORE_PUBLICATION_COMPACT_SUMMARY_V1",
+  "scientific_rerun": false
+}

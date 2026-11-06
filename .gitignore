@@ -1,0 +1,16 @@
+# native third-party raw AFM inputs are not redistributed
+*.asd
+*.rar
+data/*.asd
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+# generated outputs
+figures/*.png
+results/*.csv
+/tmp/*.npz

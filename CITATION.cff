@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite hsafm-eventaudit if you use the author-owned scientific source or accompanying original archived observations/predictions. The article citation and DOI will be added only after they exist."
+type: software
+title: "hsafm-eventaudit"
+authors:
+  - family-names: Muzyka
+    given-names: Kateryna
+    orcid: "https://orcid.org/0000-0002-3029-2919"
+license: BSD-3-Clause
+version: "0.2.0rc1"
+keywords:
+  - HS-AFM
+  - EventAudit
+  - bioimage analysis
+  - reproducible research
